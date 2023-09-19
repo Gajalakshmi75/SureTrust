@@ -1,0 +1,27 @@
+.w3-red{
+    background-color: red;
+}
+.w3-green{
+    background-color: green;
+}
+.w-pale-green{
+    background-color: palegreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:larger;
+}
+.l-panel{
+    background-color: azure;
+}
+.l-leftbar 
+{
+    background-position-x: left;
+}
+.l-sand {
+    background-color:sandybrown;
+}
+.l-xxlarge{
+    font-size: xx-large;
+} 
+.l-serif{
+    font-family: serif;
+}

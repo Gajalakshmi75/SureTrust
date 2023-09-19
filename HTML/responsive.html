@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>responsive view</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .left{
+                background-color: rosybrown;
+                padding: 20px;
+                float: left;
+                width: 20%;
+            }
+            .main{
+                background-color: blueviolet;
+                padding: 20px;
+                float: left;
+                width: 60%;
+            }
+            .right{
+                background-color:tan;
+                padding: 20px;
+                float: left;
+                width: 20%;  
+            }
+            @media screen and (max-width:800px){
+                .left,.main,.right{
+                    width:100%;
+                }
+            }
+</style>
+    </head>
+    <body>
+<h2>media queies</h2>
+<p>resize the browser window</p>
+<p>maku sure you reach the breakpoint at 800px when resizing this s frame</p>
+<div class="left">
+    <p>left menu</p>
+</div>
+<div class="main">
+    <p>main content</p>
+</div>
+<div class="right">
+    <p>right content</p>
+</div>
+    </body>
+    </html>

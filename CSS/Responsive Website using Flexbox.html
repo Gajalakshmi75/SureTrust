@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0%;
+            }
+            .header{
+                padding: 60px;
+                text-align: center;
+                background-color: aquamarine;
+                color:aliceblue;
+            }
+            .navbar{
+                display: flex;
+                background-color: black;
+
+            }
+            .navbar a{
+                color:white;
+                padding:14px 20px;
+                text-decoration: none;
+                text-align: center;
+            }
+            .navbar a:hover{
+                background-color: grey;
+                color:black;
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .side{
+                flex:30%;
+                background-color: #f1f1f1;
+                padding:20px;
+            }
+            .main{
+                flex:70%;
+                background-color: white;
+                padding:20px;
+            }
+            .fakeimg{
+                background: #ddd;
+                text-align: center;
+                padding: 20px;
+            }
+            .footer{
+                padding:20px;
+                text-align: center;
+                background: #ddd;
+            }
+        </style>
+    </head>
+    <div style="background-color: sandybrown;padding:10px">
+    <h4 style="text-align:center">Resizethe browser window to see the responsive effect. </h4>
+    </div>
+    <div class="header">
+        <h1>My website</h1>
+        <p>with a <b>flexible</b> layout.</p>
+    </div>
+
+    <div class="navbar">
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </div>
+    <div class="row">
+
+        <div class="side">
+            <h2>About me</h2>
+            <h5>Photo of me:</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>some text about me in culpa quiofficia deserunt mollit anim..</p>
+            <h3>More text</h3>
+            <p>lorem ipsum dolor sit ame.</p>
+            <div class="fakeimg" style="height: 50px;">image</div><br>
+            <div class="fakeimg" style="height: 50px;">image</div><br>
+            <div class="fakeimg" style="height: 50px;">image</div>
+        </div>
+
+        <div class="main">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description,dec 18,2022</h5>
+            <div class="fakeimg" style="height:200px;">image</div>
+            <p>Some text...</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <br>
+            <h2>TITLE HEADING</h2>
+            <h5>Title description,dec 18,2022</h5>
+            <div class="fakeimg" style="height:200px;">image</div>
+            <p>Some text...</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        </div>
+
+        <div class="footer">
+            <h2>Footer</h2>
+        </div>
+</html>

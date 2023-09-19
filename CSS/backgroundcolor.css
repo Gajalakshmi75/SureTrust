@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    background-image: url("rainbow.jpg");
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   border: bottom 100mm;
+}
+.w3-hover-red:hover{
+    background-color: red;
+}
+.w3-red{
+    background-color: red;
+}
+.w3-teal:hover{
+    background-color: teal;
+    color:orchid;
+
+}
+.w3-yellow:hover{
+    background-color: yellow;
+    background-image: url("rainbow.jpg");
+    color:green;
+}
+.w3-gray{
+    background-color: grey;
+}
+.w3-grey{
+    background-color: grey;
+}
+.gl-container{
+    background-color: blue;
+}
+.gl-green{
+    color:green;
+}
+.l-teal{
+    background-color: teal;
+}
+.g-teal{
+    background-color: teal;
+}

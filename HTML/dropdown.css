@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-image: url( pexels-huỳnh-đạt-2177482.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.menu-bar{
+    background: rgb(0, 100, 0);
+    text-align: center;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style: none;
+    color: beige;
+}
+.menu-bar ul li{
+    width:120px;
+    margin:15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    color:aliceblue;
+    text-decoration: none;
+}
+.active,.menu-bar ul li:hover{
+    background:lightgreen;
+    border-radius: 3px;
+}

@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <style>
+            .container{
+                position:relative;
+                width: 50%;
+            }
+            .image{
+                opacity: 1;
+                display: block;
+                width: 100%;
+                transition: .5s ease;
+                backface-visibility: hidden;
+                height: auto;
+            }
+            .middle{
+                position: absolute;
+                transition: .5s ease;
+                opacity: 0;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                
+            
+            }
+            .container:hover .image{
+                opacity: 0.3;
+            }
+            .container:hover .middle{
+                opacity: 1;
+            }
+            .text{
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                background-color: #4CAF50;
+                padding: 16px 32px;
+            }
+            img:hover {
+  transform: scaleX(-1);
+}
+img {
+  -webkit-box-reflect: right;
+  object-fit: contain;
+}
+        </style>
+    </head>
+    <body>
+        <h2>FADE IN OVERLAY</h2>
+        <div class="container">
+            <img src="C:\Users\Lakshmi\Desktop\HTML\CSS\snow.jpg" alt="snowimage" class="image">
+               
+        <div class="middle">
+            <div class="text">SNOW</div>
+        </div>
+        </div>
+               
+
+
+    </body>
+</html>

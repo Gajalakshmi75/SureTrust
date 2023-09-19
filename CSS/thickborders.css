@@ -1,0 +1,76 @@
+.w3-light-grey{
+    background-color: grey;
+}
+.w3-leftbar{
+    border-left: 4px solid grey;
+
+}
+.w3-border-blue{
+    border-left:4px solid blue ;
+}
+.w3-text-blue{
+    color:blue;
+}
+.w3-border-red{
+    border-left:4px solid red;
+}
+.w3-text-red{
+    color:red;
+}
+.w3-pale-blue{
+    background-color: lightskyblue;
+}
+.w3-border-green{
+    border-left:4px solid green;
+}
+.w3-text-green{
+    color:green;
+}
+.w3-border-yellow{
+    border-color: yellow;
+}
+.w3-border-yellow{
+    border-color: yellow;
+} 
+.w3-text-yellow{
+    color:yellow;
+}
+.w3-topbar{
+    border-top: 2px solid red;
+} 
+.w3-bottombar
+{
+    border-bottom:2px solid red ;
+} 
+.w3-border-red {
+    border-style: red;
+}
+.w3-pale-red{
+    background-color: lightcoral;
+}
+.w-border{
+    border-color: blue;
+    border-style: solid;
+
+}
+.w-hover-border-red:hover{
+    border-color: red;
+    border-style: solid;
+}
+.w-border-red{
+    border-color: red;
+    border-style: solid;
+
+}
+.w-hover-border-green:hover{
+    border-style:solid;
+    border-color: green;
+
+}
+.gl-hover-border-green:hover{
+    border:16px solid green;
+
+}
+.gl-hover-border-black:hover{
+    border:16px solid black;
+}

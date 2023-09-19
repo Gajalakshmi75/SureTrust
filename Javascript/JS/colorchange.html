@@ -1,0 +1,75 @@
+<!-- <html>
+    <body>
+        <button>Change color</button>
+        <script>
+            const btn=document.querySelector("button");
+            function random(num){
+                return Math.floor(Math.random()*(num+1));
+
+            }
+            btn.addEventListener("click",()=>{
+                const rndcol='rgb(${random(255)},${random(255)},${random(255)})';
+                document.body.style.backgroundColor=rndcol;
+            });
+        </script>
+    </body>
+</html> 
+
+  -->
+<!-- <html>
+    <head>
+        <title>Random background-color</title>
+        <style>
+          *{
+            padding:0;
+            margin:0;
+          }
+          body{
+            background-color: greenyellow;
+            height:100%;
+            display: grid;
+            place-items: center;
+          } 
+          button{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            padding:20px 45px;
+            background-color: transparent;
+            border-radius: 50px;
+            border: 5px solid #ffff;
+            cursor: pointer;
+            outline: none;
+            color:#fff;
+          }
+        </style>
+    </head>
+    <body>
+        <button onclick="changecolor()">Click Me</button>
+        <script>
+            function changecolor()
+            {
+                document.body.style.backgroundcolor='rgb('+Math.round(Math.random()+255)+
+                ','+Math.round(Math.random()+255)+
+                ','+Math.round(Math.random()+255)+')';
+            }
+        </script>
+    </body>
+</html> -->
+<html>
+    <body>
+        <button>Change color</button>
+        <script>
+            const btn = document.querySelector("button");
+
+function random(number) {
+  return Math.floor(Math.random() * (number + 1));
+}
+
+btn.addEventListener("click", () => {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
+});
+
+        </script>
+    </body>
+</html>

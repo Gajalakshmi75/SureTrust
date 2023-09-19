@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h1>THE SLICE() METHOD</h1>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <script>
+            let text="apple,banana,kiwi";
+            let part=text.slice(-12,-6);
+            let part2=text.replace("banana","guava");
+            let part1=text.substring(7,13);
+            document.getElementById('demo').innerHTML=part;
+            document.getElementById('demo1').innerHTML=part1;
+            document.getElementById('demo2').innerHTML=part2;
+        </script>
+    </body>
+</html>

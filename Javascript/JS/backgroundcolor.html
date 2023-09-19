@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>background color</title>
+
+    </head>
+    <body>
+        <input type="button" value="Paragarph background color" onclick="setbackground()"/>
+        <p>PARAGRAPH</p>
+        <p>ANOTHER PARAGRAPH</p>
+        <script>
+            function setbackground(){
+                const para=document.getElementsByTagName("p");
+                const secondpara=para[1];
+                secondpara.style.backgroundColor="violet";
+            }
+        </script>
+    </body>
+</html>

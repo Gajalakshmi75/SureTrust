@@ -1,0 +1,19 @@
+.w3-container{
+    border: 1px solid;
+    padding:20px;
+    
+}
+.w3-light-grey{
+    box-shadow: 5px 10px 10px pink outset;
+    border: 1px solid;
+}
+.w3-blue{
+    box-shadow: 5px 10px 10px 10px blue inset;
+    border: 1px solid;
+}
+.w3-green{
+    box-shadow: 5px 10px 10px 10px green inset;
+    border: 1px solid;
+
+}
+

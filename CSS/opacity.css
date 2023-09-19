@@ -1,0 +1,24 @@
+.w3-container{
+    background-color: white;
+    color: aliceblue;
+    height: 100%;
+    width: auto;
+}
+.w3-pink{
+    background-color: pink;
+    opacity: 0.4;
+
+    
+}
+.w3-blue{
+    background-color: skyblue;
+    opacity: 0.4;
+}
+.w3-orange{
+    background-color: orange;
+    opacity: 0.4;
+}
+.w3-black{
+    background-color: black;
+    opacity: 0.4;
+}

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>REDUCE METHOD</title>
+    </head>
+    <body>
+        <script>
+            var arr=[6,3,8,1,9];
+            var max=arr.reduce(function(acc,ele){
+                if(acc>ele){
+                    return acc
+                }
+                else{
+                    return ele
+                }
+            },arr[0])
+            console.log(max);
+        </script>
+    </body>
+</html>

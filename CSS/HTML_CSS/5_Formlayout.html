@@ -1,0 +1,106 @@
+<html>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container{
+            height:100vh;
+            width:100vw;
+            display: flex;
+            align-items: center;
+            
+        }
+        .maincontainer{
+            width:50%;
+            height:auto;
+            margin:0 auto;
+            background-color:rgb(241, 235, 235);
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            border-radius: 25px;
+        }
+        .col{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;;
+        }
+        .form{
+            width:80%;
+            margin:0 auto;
+        }
+        .address{
+            width:29.4rem;
+        }
+        .col .row .message{
+            height: 4rem;
+            width: 32.3em;
+        }
+        input{
+            border:2px solid rgb(128, 123, 123);
+            height:1.4rem;
+            border-radius: 15px;
+        }
+        .submit_btn{
+            padding:5px 25px;
+            border:1px solid grey;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="maincontainer">
+                <center>
+                    <center style="padding-bottom: 50px;"><h1><i>Registration form</i></h1></center>
+                <form class="form">
+                    <div class="col">
+                        <div class="row">
+                    <label for="">First Name:</label>
+                    <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Last Name:</label>
+                    <input type="text">
+                    </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                        <label for="">Email</label>
+                   <input type="email">
+                    </div>
+                    <div>
+                    <label for="">Phone No</label>
+                    <input type="number">
+                    </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <label for="">Message</label>
+                            <textarea class="message" name="" id="" cols="30" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <label for="">Address</label>
+                            <input class="address" type="text">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <label for="">City</label>
+                        <input type="text">
+                        </div>
+                        <div class="row">
+                            <label for="">Pincode</label>
+                            <input type="number"><BR><BR><BR>
+                        </div>
+                    </div>
+                        <div class="row">
+                            <input class="submit_btn" type="button" name="SUBMIT" value="SUBMIT"><br>
+                        </div>
+                </form>
+                </center>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+    <p id="demo"></p>
+    <script>
+        let x=123;
+        document.getElementById("demo").innerHTML=x.toString() + "<br>" + (123).toString() +"<br>" +(100+23).toString();
+
+    </script>
+    <script>
+        let y=7.646;
+        document.getElementById("demo").innerHTML=y.toFixed(0)+"<br>"+y.toFixed(2)+"<br>"+y.toFixed(4)+"<br>"+y.toFixed(6);
+
+    </script>
+    <script>
+        let z=Number.EPSILON;
+        document.getElementById("demo").innerHTML=z;
+    </script>
+    <script>
+        let s=Number.MAX_VALUE;
+        document.getElementById("demo").innerHTML=s;
+    </script>
+    <script>
+        let a = 1 / 0;
+        document.getElementById("demo").innerHTML = a;
+        </script>
+</html>

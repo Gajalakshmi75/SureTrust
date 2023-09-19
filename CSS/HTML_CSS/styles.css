@@ -1,0 +1,25 @@
+h1{
+    color:palevioletred;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.para{
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blue;
+    
+}
+img{
+    padding: 20px;
+    border:2px solid orange;
+    
+}
+div{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+}
+span{
+    color: olive;
+    background-color: blueviolet;
+}

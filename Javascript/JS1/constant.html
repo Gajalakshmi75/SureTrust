@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <script>
+            const cars=["saab","volvo","BMW"];
+            cars[0]="Toyota";
+            cars.push("Audi");
+            document.getElementById("demo").innerHTML=cars;
+        </script>
+        <script>
+            var x=10;
+            x+=5;
+            document.getElementById("demo").innerHTML=x;
+        </script>
+
+<script>
+    let x = BigInt("123456789012345678901234567890");
+    document.getElementById("demo").innerHTML = x; 
+    </script>
+
+        <script>
+            let i=123e5;
+            let j=123e-5;
+            document.getElementById("demo1").innerHTML= i+"<br>"+j;
+        </script>
+        <script>
+            document.getElementById("demo").innerHTML=typeof "" + "<br>" + typeof "gaja" + "<br>" + typeof 123;
+        </script>
+    </body>
+</html>

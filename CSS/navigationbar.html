@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <tile>Navigation bar</tile>
+    </head>
+    <style>
+        ul{
+            background-color: grey;
+            padding:0px;
+            margin:0px;
+            overflow:hidden;
+            list-style-type: none;
+            position: sticky;
+            width:100%;
+            top:0;
+            cursor:pointer;
+        }
+        li{
+            float: left;
+            border-right: 1px solid black;
+        }
+        li a,.dropbtn{
+            display: inline-block;
+            color:black;
+            font-size: 20px;
+            text-align: center;
+            padding:10px 20px;
+            text-decoration: none;
+        }
+        li a:hover,.dropdown:hover .dropbtn{
+            background-color: blanchedalmond;
+            color:blueviolet
+        }
+        .dropdown-content {
+            display:none;
+            position:absolute;
+            background-color: aquamarine;
+            min-width:160px ;
+            box-shadow: 0px 10px 20px 0px;
+
+        }
+        .dropdown-content a{
+            text-align: left;
+            display: block;
+            padding: 12px 16px;
+            text-decoration: none;
+            color:black;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+        .dropdown-content a:hover{
+            background-color: goldenrod;
+            color:white;
+        }
+        .bar{
+            background-color: lightgrey;
+            color:white;
+        }
+
+
+    </style>
+    <body>
+        <ul>
+            <li><a class="bar" href="#home">HOME</a></li>
+            <li><a href="#">JAVA</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Web-designing </a>
+                <div class="dropdown-content">
+                    <a href="#">HTML</a>
+                    <a href="#">CSS</a>
+                    <a href="#">JAVSCRIPT</a>
+                </div>
+            </li>
+        </ul>
+        <h1 style="padding-top: 100px; text-align: center;">Hello World</h1>
+<h2 style="padding-bottom: 2000px; text-align: center;">Scroll down the page to see the fixed navigation bar</h2>
+    </body>
+    </html>

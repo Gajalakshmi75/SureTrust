@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Document</title>
+        <style>
+            body{
+                background-color: gray;
+            }
+            input{
+                border-radius: 20%;
+                border:none;
+                padding:20px;
+                font-size: 20px;
+                min-width: 100px;
+                color:red;
+                background-color: dodgerblue;
+            }
+            h1{
+                color: pink;
+            }
+            p{
+                color:greenyellow;
+            }
+        </style>
+    </head>
+        <body>
+            <input type="button" value="Change document" onclick="change()"/>
+            <h1>Header</h1>
+            <p>Paragraphh</p>
+            <script>
+                function change()
+                {
+                    const header=document.getElementsByTagName("h1").item(0);
+                    header.firstChild.data="This is heading";
+                    const para=document.getElementsByTagName("p").item(0);
+                    para.firstChild.data="This ia paragraph";
+
+                    const newtext=document.createTextNode("This is another paragraph");
+                    const newele=document.createElement("p");
+                    newele.appendChild(newtext);
+                    para.parentNode.appendChild(newele);
+                }
+            </script>
+        </body>
+</html>

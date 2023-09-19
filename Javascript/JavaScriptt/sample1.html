@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Dom</title>
+        <style>
+            #div1
+            {
+                height:100px;
+                width: 100px;
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div1"></div>
+        <button class=".btn">SUBMIT</button>
+    </body>
+    <script>
+        var element=document.querySelector('#div1');
+        var btn=document.querySelector('.btn');
+        btn.addEventListener('click',function doTask()
+        {
+            element.classList.toggle('box');
+        })
+    </script>
+</html>

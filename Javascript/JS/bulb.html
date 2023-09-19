@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <style>
+            button{
+                border-radius: 10%;
+                border:none;
+                padding:30px;
+                font-size: 30px;
+                min-width: 100px;
+            }
+            .on{
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="btn" class="on">ON</button>
+        <script>
+            const btnel=document.getElementById("btn");
+             function tooglebtn(){
+                console.log("click");
+                if(btnel.classList[0] ==="on")
+                {
+                    btnel.classList.remove("on");
+                    btnel.classList.add("off");
+                    btnel.innerHTML="OFF";
+                }else{
+                    btnel.classList.remove("off");
+                    btnel.classList.add("on");
+                    btnel.innerHTML="ON";
+                }
+             }
+             btnel.addEventListener("click",tooglebtn);
+        </script>
+    </body>
+ </html>
